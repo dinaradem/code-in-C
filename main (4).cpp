@@ -1,0 +1,17 @@
+#include <iostream>
+#include <stack>
+int main()
+{
+	// lifo mean last in first out here the top is ferrari not reda
+	std::stack <std::string> cars;
+	cars.push("mclaren");
+	cars.push("audi");
+	cars.push("bmw");
+	cars.push("ferrari");
+	cars.push("reda");
+	cars.pop();
+	std::cout << cars.top() << std::endl;
+	std::cout << cars.size() << std::endl;
+	std::cout << cars.empty() << std::endl;
+	return 0;
+}
