@@ -1,2 +1,2 @@
-# code-in-C-and-python
-just sharing my code in C++ and python 
+# code in C++
+just sharing my code in C++
